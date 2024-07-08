@@ -26,7 +26,52 @@ function Chat() {
           <img src="./info.png" alt="info" />
         </div>
       </div>
-      <div className="center"></div>
+      <div className="center">
+        <div className="message own">
+          <div className="text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              laoreet nisi at elit venenatis fringilla. Cras ut semper quam,
+              sit.
+            </p>
+            <span>1 minute ago</span>
+          </div>
+        </div>
+        <div className="message ">
+          <img src="./avatar.png" />
+          <div className="text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              laoreet nisi at elit venenatis fringilla. Cras ut semper quam,
+              sit.
+            </p>
+            <span>1 minute ago</span>
+          </div>
+        </div>
+        <div className="message own">
+          <div className="text">
+            <img src="./download.jpeg" alt="some photo"/>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              laoreet nisi at elit venenatis fringilla. Cras ut semper quam,
+              sit.
+            </p>
+            <span>1 minute ago</span>
+          </div>
+        </div>
+        <div className="message ">
+          <img src="avatar.png" />
+
+          <div className="text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+              laoreet nisi at elit venenatis fringilla. Cras ut semper quam,
+              sit.
+            </p>
+            <span>1 minute ago</span>
+          </div>
+        </div>
+      </div>
       <div className="bottom">
         <div className="icons">
           <img src="./img.png" alt="" />
