@@ -4,6 +4,12 @@ import { useState } from "react";
 import "./chat.css";
 function Chat() {
   const [showEmoji, setShowEmoji] = useState(false);
+  const [textValue, setTextValue] = useState("");
+  const handleEmoji = (e) => {
+    setTextValue((prev) => prev + e.emoji);
+    console.log(e.emoji);
+  };
+  console.log(textValue);
   return (
     <div className="chat">
       <div className="top">
@@ -27,7 +33,12 @@ function Chat() {
           <img src="./camera.png" alt="" />
           <img src="./mic.png" alt="" />
         </div>
-        <input placeholder="Type message" />
+        <input
+          type="text"
+          onChange={(e) => setTextValue(e.target.value)}
+          placeholder="Type message"
+          value={textValue}
+        />
         <div className="emoji">
           <img
             src="./emoji.png"
@@ -36,7 +47,7 @@ function Chat() {
           />
           {showEmoji ? (
             <div className="emojiPicker">
-              <EmojiPicker />
+              <EmojiPicker onEmojiClick={handleEmoji} />
             </div>
           ) : null}
         </div>

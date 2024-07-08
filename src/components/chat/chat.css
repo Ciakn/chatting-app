@@ -47,6 +47,9 @@
     }
   }
   .center {
+    img{
+        background-color: red;
+    }
   }
   .bottom {
     padding: 20px;
