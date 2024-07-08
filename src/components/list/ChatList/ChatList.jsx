@@ -45,6 +45,7 @@ function ChatList() {
           <p>hello bro</p>
         </div>
       </div>
+
       <div className="item">
         <img src="./avatar.png" alt="avatar" />
         <div className="texts">

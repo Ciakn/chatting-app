@@ -24,3 +24,10 @@ body {
   display: flex;
 }
 
+::-webkit-scrollbar{
+  width: 10px;
+  }
+::-webkit-scrollbar-track{
+  background: rgba(24, 24, 30, 0.913);
+  border-radius: 15px;
+}
