@@ -1,37 +1,69 @@
-.search {
+.chatlist {
+  flex: -1;
+  overflow-y: auto;
+  .search {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    /* searchbar */
+    .searchBar {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      flex: 1;
+      background-color: rgba(17, 25, 40, 0.75);
+      border-radius: 10px;
+      /* input */
+      input {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        color: white;
+        flex: 1;
+      }
+      /* searchBar img */
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
+    /* add button Img */
+    .add {
+      width: 40px;
+      height: 44px;
+      border-radius: 10px;
+      padding: 10px;
+      cursor: pointer;
+
+      background-color: rgba(17, 25, 40, 0.75);
+    }
+  }
+}
+/* chat item */
+.item {
   display: flex;
   gap: 20px;
   padding: 20px;
-  /* searchbar */
-  .searchBar {
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    flex: 1;
-    background-color: rgba(17, 25, 40, 0.75);
-    border-radius: 10px;
-    /* input */
-    input {
-      background-color: transparent;
-      border: none;
-      outline: none;
-      color: white;
-      flex: 1;
-    }
-    /* searchBar img */
-    img {
-      width: 25px;
-      height: 25px;
-    }
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 1px solid #dddddd35;
+  img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
   }
-  /* add button Img */
-  .add {
-    width: 40px;
-    height: 44px;
-    border-radius: 10px;
-    padding: 10px;
-    cursor: pointer;
+  .text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
-    background-color: rgba(17, 25, 40, 0.75);
+  }
+  span{
+    font-weight: 500;
+  }
+  p{
+    font-size: 14px;
+    font-weight: 300;
   }
 }

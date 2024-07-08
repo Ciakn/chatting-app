@@ -23,7 +23,56 @@ function ChatList() {
           <span>Ali Ahmed</span>
           <p>hello bro</p>
         </div>
-      </div> 
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="avatar" />
+        <div className="texts">
+          <span>Ali Ahmed</span>
+          <p>hello bro</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="avatar" />
+        <div className="texts">
+          <span>Ali Ahmed</span>
+          <p>hello bro</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="avatar" />
+        <div className="texts">
+          <span>Ali Ahmed</span>
+          <p>hello bro</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="avatar" />
+        <div className="texts">
+          <span>Ali Ahmed</span>
+          <p>hello bro</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="avatar" />
+        <div className="texts">
+          <span>Ali Ahmed</span>
+          <p>hello bro</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="avatar" />
+        <div className="texts">
+          <span>Ali Ahmed</span>
+          <p>hello bro</p>
+        </div>
+      </div>
+      <div className="item">
+        <img src="./avatar.png" alt="avatar" />
+        <div className="texts">
+          <span>Ali Ahmed</span>
+          <p>hello bro</p>
+        </div>
+      </div>
     </div>
   );
 }
