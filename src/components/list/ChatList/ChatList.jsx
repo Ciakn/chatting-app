@@ -17,7 +17,13 @@ function ChatList() {
           className="add"
         />
       </div>
-      <div className="item"></div>
+      <div className="item">
+        <img src="./avatar.png" alt="avatar" />
+        <div className="texts">
+          <span>Ali Ahmed</span>
+          <p>hello bro</p>
+        </div>
+      </div> 
     </div>
   );
 }
