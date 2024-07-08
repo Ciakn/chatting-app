@@ -9,7 +9,7 @@ function Chat() {
     setTextValue((prev) => prev + e.emoji);
     console.log(e.emoji);
   };
-  console.log(textValue);
+
   return (
     <div className="chat">
       <div className="top">

@@ -3,6 +3,8 @@
   border-right: 1px solid #dddddd35;
   border-left: 1px solid #dddddd35;
   height: 100%;
+  display: flex;
+  flex-direction: column;
   .top {
     padding: 20px;
     display: flex;
@@ -47,12 +49,12 @@
     }
   }
   .center {
-    img{
-        background-color: red;
-    }
+    padding: 20px;
+    flex: 1;
   }
   .bottom {
     padding: 20px;
+    margin-top: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,6 +89,7 @@
       cursor: pointer;
     }
     .emoji {
+      position: relative;
       display: flex;
       align-items: center;
       gap: 10px;
@@ -99,8 +102,8 @@
 
     .emojiPicker {
       position: absolute;
-      top: 100px;
-      right: 20px;
+      bottom: 50px;
+      left: 0;
     }
   }
 }
