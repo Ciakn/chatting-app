@@ -15,8 +15,8 @@ function Login() {
     }
   };
   const handleLogin = (e) => {
-      e.preventDefault();
-      toast.info("Logging in")
+    e.preventDefault();
+    toast.info("Logging in");
   };
   return (
     <div className="login">
@@ -31,6 +31,7 @@ function Login() {
       <div className="seperator"></div>
       <div className="item">
         <form>
+          <h3>Create an Account</h3>
           <label style={{ cursor: "pointer" }} htmlFor="file">
             <img src={avatar.url || "./avatar.png"} />
             Upload an Image
