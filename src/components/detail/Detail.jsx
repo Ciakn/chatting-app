@@ -40,7 +40,21 @@ function Detail() {
                 <img src="./download.jpeg" alt="shared photo" />
                 <span>Photo_2024.ng</span>
               </div>
-              <img src="download.png" alt="download button"  className="icon"/>
+              <img src="download.png" alt="download button" className="icon" />
+            </div>
+            <div className="photoItem">
+              <div className="photoDetail">
+                <img src="./download.jpeg" alt="shared photo" />
+                <span>Photo_2024.ng</span>
+              </div>
+              <img src="download.png" alt="download button" className="icon" />
+            </div>
+              <div className="photoItem">
+              <div className="photoDetail">
+                <img src="./download.jpeg" alt="shared photo" />
+                <span>Photo_2024.ng</span>
+              </div>
+              <img src="download.png" alt="download button" className="icon" />
             </div>
           </div>
         </div>
@@ -51,6 +65,7 @@ function Detail() {
           </div>
         </div>
         <button>Block User</button>
+        <button className="logout">LogOut</button>
       </div>
     </div>
   );
