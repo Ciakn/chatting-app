@@ -2,7 +2,7 @@ import Chat from "./components/chat/Chat";
 import Detail from "./components/detail/Detail";
 import List from "./components/list/List";
 import Login from "./components/Login/Login";
-
+import Notifications from "./components/notifications/Notifications";
 const App = () => {
   const user = false;
   return (
@@ -17,6 +17,7 @@ const App = () => {
       ) : (
         <Login />
       )}
+      <Notifications />
     </div>
   );
 };
