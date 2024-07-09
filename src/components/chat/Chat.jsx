@@ -19,7 +19,7 @@ function Chat() {
         <div className="user">
           <img src="./avatar.png" alt="" />
           <div className="texts">
-            <span className="">mohammad ali</span>
+            <span className="">Cya kan</span>
             <p>Lorem ipsum dolor sit amet.</p>
           </div>
         </div>

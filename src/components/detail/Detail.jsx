@@ -5,7 +5,7 @@ function Detail() {
     <div className="detail">
       <div className="user">
         <img src="./avatar.png" alt="avatar" />
-        <h4>Ali ahmed</h4>
+        <h4>Cya kan</h4>
         <p>
           Lorem ipsum dolor sit amet, 
         </p>
