@@ -19,8 +19,14 @@ function Detail() {
         </div>
         <div className="option">
           <div className="title">
+            <span>Chat Setting</span>
+            <img src="./arrowUp.png" alt="arrow" />
+          </div>
+        </div>
+        <div className="option">
+          <div className="title">
             <span>Privacy & Help</span>
-            <img src="./arrowup.png" alt="arrow" />
+            <img src="./arrowDown.png" alt="arrow" />
           </div>
         </div>
         <div className="option">
@@ -34,7 +40,7 @@ function Detail() {
                 <img src="./download.jpeg" alt="shared photo" />
                 <span>Photo_2024.ng</span>
               </div>
-              <img src="download.png" alt="download button" />
+              <img src="download.png" alt="download button"  className="icon"/>
             </div>
           </div>
         </div>

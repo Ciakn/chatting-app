@@ -1,10 +1,87 @@
-.detail{
-    flex: 1;
-    .user{
-        padding: 30px 20px;
+.detail {
+  flex: 1;
+  /* user Styles */
+  .user {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #dddddd35;
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+  /* user info styles */
+  .info {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .option {
+      .title {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        img {
+          width: 30px;
+          height: 30px;
+          cursor: pointer;
+          background-color: rgba(17, 25, 40, 0.3);
+          padding: 10px;
+          border-radius: 50px;
+        }
+      }
+      /* shared photo styles */
+      .photos {
+        margin-top: 12px;
         display: flex;
         flex-direction: column;
-        align-items: center;
         gap: 20px;
-        
-}}
+        .photoItem {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .photoDetail {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            img {
+              width: 40px;
+              height: 40px;
+              border-radius: 5px;
+              object-fit: cover;
+            }
+            span {
+              font-size: 14px;
+              color: lightgray;
+              font-weight: 300;
+            }
+          }
+          .icon {
+            width: 30px;
+            height: 30px;
+            background-color: rgba(17, 25, 40, 0.3);
+            cursor: pointer;
+            border-radius: 50%;
+            padding: 10px;
+          }
+        }
+      }
+    }
+    button {
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: rgba(230, 74, 105, 0.5);
+      color: white;
+      border: none;
+      cursor: pointer;
+      &:hover{
+        background-color: rgba(230, 74, 105, 1);
+      }
+    }
+  }
+}
