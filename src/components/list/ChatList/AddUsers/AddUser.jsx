@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./AddUser.css";
 const AddUser = () => {
   return (
     <div className="addUser">
@@ -7,8 +7,8 @@ const AddUser = () => {
         <input type="text" placeholder="Username" name="username" />
         <button>Search</button>
       </form>
-      <div className="user">
-        <div className="detail">
+      <div className="addingUser">
+        <div className="userDetail">
           <img src="./avatar.png" alt="avatar" />
           <span>ali ahmed</span>
         </div>

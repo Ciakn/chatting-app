@@ -1,5 +1,6 @@
 /* chatList Styles */
 .chatlist {
+  position: relative;
   flex: -1;
   overflow-y: auto;
   .search {
@@ -44,7 +45,7 @@
 .item {
   display: flex;
   gap: 20px;
-  padding: 20px;
+  padding: 15px;
   align-items: center;
   cursor: pointer;
   border-bottom: 1px solid #dddddd35;
@@ -61,10 +62,12 @@
 
   }
   span{
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: bold;
   }
   p{
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
+    color: lightgray;
   }
 }
